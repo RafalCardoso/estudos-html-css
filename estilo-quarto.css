@@ -1,0 +1,213 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.cabecalho-principal {
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #eee; 
+}
+
+
+.container-topo {
+    display: flex;                
+    justify-content: space-between; 
+    align-items: center;          
+    max-width: 940px;            
+    margin: 0 auto;              
+    padding: 20px 0;             
+}
+
+
+.logo-top {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo-top span {
+    color: #0099cc; 
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 25px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+
+.banner-topo {
+    width: 100%;            
+    height: 250px;          
+    
+    
+    background-image: url("icones/img-fundo.jpg"); 
+    
+    background-size: cover;    
+    background-position: center; 
+    margin-bottom: 40px;       
+}
+
+.primeiro-titulo1{
+text-align: center;
+margin: 60px;
+
+}
+
+.quartos-hotel {
+    display: flex;           
+    justify-content: center; 
+    gap: 30px;               
+    padding: 20px 0;         
+}
+
+.nova-image{
+width: 300px;          
+    height: auto;           
+    border: 1px solid #ccc; 
+    padding: 5px;
+}
+
+.quinto-item{
+text-decoration: none;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.container-quartos {
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: 30px;  
+}
+
+.primeiro-titulo1 {
+    font-size: 24px;
+    text-transform: uppercase; 
+    color: #333;
+    font-weight: bold;
+}
+
+.paragraf-novo {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.container-infos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px; /* Espaço maior antes do próximo quarto */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-infos h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.lista-infos {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;        
+    justify-content: center;
+    flex-wrap: wrap;       
+    gap: 20px;             
+}
+
+.lista-infos li {
+    font-size: 13px;
+    color: #555;
+}
+
+
+.lista-infos li::before {
+    content: "•";
+    color: #0099cc;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+
+.rodape-pagina {
+    background-color: #338064;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.rodape-pagina p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+/* Container Principal Verde */
+.rodape-pagina {
+    background-color: #338064; /* Verde escuro */
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo-contato {
+    margin: 0 0 20px 0; /* Espaço embaixo do título */
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.conteudo-contato {
+    display: flex;            
+    justify-content: center;  
+    gap: 40px;                
+    flex-wrap: wrap;          
+    margin-bottom: 30px;      
+}
+
+
+.item-rodape {
+    display: flex;            
+    align-items: center;      
+    gap: 10px;                
+}
+
+
+.icone-rodape {
+    width: 25px;              
+    height: auto;
+}
+
+
+.item-rodape a, 
+.item-rodape p {
+    color: white;             
+    text-decoration: none;    
+    font-size: 14px;
+    margin: 0;                
+}
+
+.copyright {
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    padding-top: 20px;
+    width: 100%;               
+    margin: 0 auto;    
+    text-align: center;       
+  
+}
